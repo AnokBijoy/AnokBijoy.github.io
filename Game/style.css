@@ -1,0 +1,160 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(./comic.png);
+    overflow: hidden;
+}
+
+
+.road{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    background-color: darkblue;
+
+}
+
+.line{
+    display: inline-block;
+    width: 30.5px;
+    height: 10px;
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 42px;
+}
+
+
+.lines{
+    animation-name: lines;
+    animation-duration: 0.1;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes lines{
+    from {margin-left: 0px;}
+    to {margin-left: -42px;}
+    
+}
+
+.bat{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: -0px;
+    width: 150px;
+    box-shadow: 1px 2px 60px rgba(0,0,0,4);
+    border-radius: 80px;
+}
+
+.ninja{
+    width: 100px;
+    position: absolute;
+    margin-top: -130px;
+    border-radius: 200px;
+
+}
+
+
+
+
+#button{
+    margin-top: -0px;
+    background-color: green;
+    font-weight: bold;
+    margin-left: 640px;
+    height: 50px;
+    font-size: 28px;
+}
+
+.startBat{
+    display: inline;
+    animation-name: startBat;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: unset;
+}
+
+@keyframes startBat{
+from {margin-left: -500px;}
+to {margin-left: -90px;}
+}
+
+
+
+
+
+.batStep{
+    animation-name: batStep;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes batStep{
+0% {margin-left: 0px;}
+7% {margin-left: 100px;}
+14% {margin-left: 170px;}
+21% {margin-left: 230px;}
+28% {margin-left: 260px;}
+35% {margin-left: 310px;}
+42% {margin-left: 370px;}
+49% {margin-left: 420px;}
+56% {margin-left: 470px;}
+63% {margin-left: 530px;}
+70% {margin-left: 580px;}
+77% {margin-left: 700px;}
+85% {margin-left: 850px;}
+94% {margin-left: 950px;}
+100% {margin-left: 1100px;}
+}
+
+
+.startNinja{
+    display: inline;
+    animation-name: startNinja;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: unset;
+}
+
+@keyframes startNinja{
+    from {margin-left: -410px;}
+    to {margin-left: 0px;}
+    }
+   
+
+
+
+
+
+.ninjaStep{
+    animation-name: ninjaStep;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes ninjaStep{
+0% {margin-left: 0px;}
+7% {margin-left: 100px;}
+14% {margin-left: 170px;}
+21% {margin-left: 230px;}
+28% {margin-left: 260px;}
+35% {margin-left: 310px;}
+42% {margin-left: 370px;}
+49% {margin-left: 420px;}
+56% {margin-left: 470px;}
+63% {margin-left: 530px;}
+70% {margin-left: 580px;}
+77% {margin-left: 700px;}
+85% {margin-left: 850px;}
+94% {margin-left: 950px;}
+100% {margin-left: 1300px;}
+
+
+
+
+}    
+
+
+
